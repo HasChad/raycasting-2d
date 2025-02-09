@@ -81,6 +81,7 @@ impl Ray {
     }
 }
 
+#[derive(Clone, Copy)]
 pub struct Wall {
     pub a: Vec2,
     pub b: Vec2,

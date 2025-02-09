@@ -15,28 +15,9 @@ async fn main() {
         rays.push(Ray::new(degree));
     }
 
-    // for _ in 0..5 {
-    //     walls.push(Wall::new());
-    // }
-
-    walls = vec![
-        Wall {
-            a: vec2(200., 200.),
-            b: vec2(200., 400.),
-        },
-        Wall {
-            a: vec2(400., 400.),
-            b: vec2(400., 200.),
-        },
-        Wall {
-            a: vec2(200., 400.),
-            b: vec2(400., 400.),
-        },
-        Wall {
-            a: vec2(400., 200.),
-            b: vec2(200., 200.),
-        },
-    ];
+    for _ in 0..5 {
+        walls.push(Wall::new());
+    }
 
     // ! Game Loop
     loop {
