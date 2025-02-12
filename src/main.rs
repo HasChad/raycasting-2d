@@ -29,7 +29,7 @@ async fn main() {
             }
         }
 
-        // ! draw
+        // ! Draw
         clear_background(BLACK);
 
         for ray in rays.iter_mut() {
